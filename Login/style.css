@@ -1,0 +1,43 @@
+#credentials-form {
+    max-width: 500px;
+    width: 100%;
+    background: #caffff;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#phone-number {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px 25px;
+    background: white;
+}
+
+#phone-number:focus,
+#customer-id:focus {
+    border-radius: 30px !important;
+    border: 1px solid;
+}
+
+#customer-id {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px 25px;
+    background: white;
+}
+
+#search-button {
+    padding: 3% 10%;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: none;
+}
+
+#please-wait-message {
+    display: none;
+}

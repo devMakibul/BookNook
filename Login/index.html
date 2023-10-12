@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="loading-message">Authorising... Please wait.</div>
+    <div id="credentials-form" style="display: none;">
+        <div style="font-size: 12px; line-height: 16px; margin-bottom: 10px;">If you want to continue as a guest then
+            use <b>9876543210</b> as <b>Phone Number</b> and <b>1234567890</b> as <b>Customer ID</b>.</div>
+        <input type="text" id="phone-number" placeholder="Enter phone number" required>
+        <input type="text" id="customer-id" placeholder="Enter customer ID" required>
+        <button id="search-button" onclick="performSearch()">Login</button>
+        <p id="please-wait-message" style="padding-left: 10px">Please wait...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
