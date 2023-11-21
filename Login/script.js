@@ -45,7 +45,7 @@ if (cachedCredentials) {
     document.getElementById('loading-message').style.display = 'block';
 
     // Redirect to the specific link
-    window.location.href = '/p/checkout.html';
+    window.location.href = '../checkout/index.html';
 } else {
     // Hide the loading message and show the form
     document.getElementById('loading-message').style.display = 'none';
