@@ -1,0 +1,119 @@
+  * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+#cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 50px;
+}
+
+
+.cart-item {
+    padding: 20px;
+    border-radius: 25px;
+    flex-grow: 1;
+    background-color: #ffdff2;
+    border: 2px solid #fff0;
+    transition: 0.2s ease;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.company-name {
+    color: #666;
+}
+
+.price-label {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background: #d9d9d9;
+    border: none;
+}
+
+.remove-button {
+    float: right;
+    right: 5px;
+    color: #fff;
+    border: 1px solid #e74c3c;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    display: inline-flex;
+    width: fit-content;
+    position: relative;
+    background-color: #e74c3c;
+}
+
+.remove-button:hover {
+    background-color: #00000000;
+    color: #333333;
+    border: 1px solid #333333;
+    transition: 0.2s ease;
+}
+
+.price-button {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #c8e8ff30;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 25px 25px 0 0;
+    transform: translateX(-50%);
+    backdrop-filter: blur(20px);
+}
+
+.total-price {
+    font-weight: bold;
+}
+
+.proceed-button {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    display: inline-flex;
+    width: fit-content;
+    position: relative;
+}
+
+.proceed-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    border: 1px solid #fff0;
+}
+
+.proceed-button:hover {
+    background-color: #00000000;
+    color: #333333;
+    border: 1px solid #333333;
+    transition: 0.2s ease;
+}
+
+.empty-cart {
+    font-weight: bold;
+    text-align: center;
+}
