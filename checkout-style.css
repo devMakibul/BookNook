@@ -116,6 +116,11 @@ button:hover {
     text-align: center;
 }
 
+.order-now-button svg {
+    height: 30px;
+    width: 30px;
+}
+
 .ordered-product {
     background: #ffdff2;
     padding: 20px 25px;
