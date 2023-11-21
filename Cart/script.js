@@ -102,5 +102,5 @@ displayCartItems();
 // Attach event listener to the proceed button
 proceedButton.addEventListener('click', function () {
     // Redirect to the specific URL
-    window.location.href = '/p/login.html';
+    window.location.href = '../login/index.html';
 });
