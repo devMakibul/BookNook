@@ -163,7 +163,7 @@ const reloadDataButton = document.getElementById("reload-data-button");
 reloadDataButton.addEventListener("click", function () {
     localStorage.removeItem("bookData");
     localStorage.removeItem("cartItems"); // Clear the cart cache as well
-    window.location.href = "https://bookstore.makibul.com";
+    window.location.reload();
 });
 
 // Search bar input event
