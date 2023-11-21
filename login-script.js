@@ -27,7 +27,7 @@ function checkCredentials() {
             document.getElementById('loading-message').style.display = 'block';
 
             // Redirect to the specific link
-            window.location.href = '/p/checkout.html';
+            window.location.href = 'checkout.html';
         } else {
             // Show an error message or perform any other action
             alert('Invalid credentials. Please try again.');
